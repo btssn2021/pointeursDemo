@@ -38,6 +38,13 @@ int main() {
     printf("%p\n",ptrint);
     printf("%p\n",&choix);
     /*********faire le test avec une saisie utilisateur***********************************/
-
+    printf("Veuillez saisir un nombre");
+    int choixutilisateur;
+    scanf("%d",&choixutilisateur);
+    printf("%d\n", choixvaleur(choixutilisateur));
+    printf("Veuillez saisir un nombre");
+    int choixutilisateur2;
+    scanf("%d",&choixutilisateur2);
+    printf("%d\n", choixreference(&choixutilisateur2));
     return 0;
 }
